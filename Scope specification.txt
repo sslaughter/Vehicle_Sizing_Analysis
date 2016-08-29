@@ -1,0 +1,58 @@
+Voltage:
+3S
+4S
+- currently not going to add 6S, maybe in the future though
+
+Batteries:
+Glacier
+Lumenier
+Thunder Power
+Tattu
+*** Pro company from conference, can't remember at the moment
+
+
+Motors:
+Tiger Motor
+Sunnysky
+Cobra
+KDE
+
+- props dependent on available data
+
+ESCs:
+Tiger Motor
+Lumenier
+DYS
+Kiss
+KDE
+
+
+
+
+Motor data files:
+Brand, motor model, kv
+Propeller size, prop pitch
+
+
+Battery data file:
+Brand, capacity, weight, discharge rate
+....
+
+
+ESC data file:
+Brand, current limit, weight
+
+Existing questions:
+Weight of vehicle - possibly going to correlate frame weight to payload/flight time. This may not be the best way.
+How to incorporate payload running requirement (30 min), was thinking about trendlines on the data point to show payload run time.
+
+Order of operations:
+
+For each motor/prop combination-
+	- interpolate thrust vs throttle data to get corresponding function
+	- iterpolate thrust vs current data
+	- for each battery/ESC combo
+		- calculate total vehicle weight (payload (fixed), frame (fixed), motors, battery(s), ESCs, other components)
+		- calculate hover throttle (from thrust vs throttle)
+		- calculate hover current draw (from thrust/throttle vs current)
+		- calculate flight time (80% of battery)
