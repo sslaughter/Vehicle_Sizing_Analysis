@@ -1,0 +1,12 @@
+http://stackoverflow.com/questions/16568964/make-a-multiline-plot-from-csv-file-in-matplotlib
+http://stackoverflow.com/questions/11067368/annotate-time-series-plot-in-matplotlib
+http://stackoverflow.com/questions/17891493/annotating-points-from-a-pandas-dataframe-in-matplotlib-plot
+http://pandas.pydata.org/pandas-docs/version/0.13.1/cookbook.html#cookbook-plotting
+http://matplotlib.org/1.2.1/examples/pylab_examples/errorbar_demo.html
+http://matplotlib.org/api/pyplot_api.html#matplotlib.pyplot.plot
+http://stackoverflow.com/questions/22364565/python-pylab-scatter-plot-error-bars-the-error-on-each-point-is-unique
+http://matplotlib.org/api/markers_api.html#module-matplotlib.markers
+http://matplotlib.org/api/path_api.html#matplotlib.path.Path
+http://people.duke.edu/~ccc14/pcfb/numpympl/MatplotlibBarPlots.html
+http://docs.scipy.org/doc/numpy/reference/routines.array-creation.html
+http://matplotlib.org/users/pyplot_tutorial.html

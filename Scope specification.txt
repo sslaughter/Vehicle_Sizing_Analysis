@@ -31,7 +31,16 @@ KDE
 
 Motor data files:
 Brand, motor model, kv
-Propeller size, prop pitch
+A,Propeller size, prop pitch
+thrtl, thrust, current
+.
+.
+B
+A,Propeller size, prop pitch
+thrtl, thrust, current
+.
+.
+B
 
 
 Battery data file:
